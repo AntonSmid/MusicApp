@@ -224,6 +224,47 @@ main {
 
 
 
+/* #### Song List #### */
+
+.song-list {
+  padding: 20px;
+}
+
+.list-item {
+  margin: 20px 0;
+  display: flex;
+}
+
+.list-item img {
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.list-item-icon span {
+  color: #f3c05a;
+}
+
+.list-item-text h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.list-item-text h4 {
+  text-transform: capitalize;
+}
+
+
+
+@media screen and (min-width: 576px) {
+  .song-list-center {
+    max-width: 76vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
 
 
 
