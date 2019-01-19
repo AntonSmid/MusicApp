@@ -157,6 +157,10 @@ body {
 
 
 /* *********** responsive *********** */
+@media screen and (min-width:776px) {
+  .song-list-center {
+    max-width: 76vw;
+  }
 
 body {
   min-height: 100vh;
@@ -170,10 +174,13 @@ main {
 
 
 
-@media screen and (min-width:776px) {
+
+  
+  
   .side-nav-links {
     display: block!important;
   }
+  
   
   .side-btn {
     display: none;
@@ -197,9 +204,9 @@ main {
   }
   
   .main {
-    flex: 0 0 80%;
     display: flex;
     flex-direction: column;
+    flex: 0 0 80%;
     max-width: 80vw!important;
   }
   
@@ -217,8 +224,9 @@ main {
   transition: margin 1s ease;
 }
 
+
 .max-width {
-  max-width: 100vw!important;
+  max-width: 100vw !important;
   padding: 0 20px;
 }
 
@@ -263,16 +271,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
   }
+  
+
 }
 
-@media screen and (min-width:776px) {
-    .song-list-center {
-    max-width: 76vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+
+  
+
+  
+
 }
 
 /* #### end of Song List #### */
@@ -282,6 +291,7 @@ main {
 /* #### Song #### */
 
 .songs {
+
   padding: 40px 0;
 }
 
@@ -348,6 +358,13 @@ main {
 
 .song-container:hover .song-icon {
   opacity: 1;
+}
+
+@media screen and (min-width:776px) {
+  .songs {
+    margin: 0 auto;
+    max-width: 76vw;
+  }
 }
 
 
